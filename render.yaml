@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: web
+    name: to-do-app
+    env: docker
+    docker:
+      - .
+    region: oregon
+    plan: free
